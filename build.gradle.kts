@@ -24,7 +24,9 @@ repositories {
 }
 
 dependencies {
-    implementation("org.springframework.boot:spring-boot-starter-security")
+    implementation("org.freemarker:freemarker:2.3.33")
+    implementation("com.baomidou:mybatis-plus-generator:3.5.7")
+    implementation("com.baomidou:mybatis-plus-spring-boot3-starter:3.5.7")
     implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.thymeleaf.extras:thymeleaf-extras-springsecurity6")
